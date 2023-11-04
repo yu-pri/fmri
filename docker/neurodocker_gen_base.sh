@@ -9,4 +9,4 @@ docker run --rm repronim/neurodocker:latest \
     --yes \
     --miniconda version=latest \
                 conda_install="python=3.10 traits" \
-                pip_install="nipype" > ./Dockerfile.base
+                pip_install="nipype" > ./Dockerfile.fsl
